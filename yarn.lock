@@ -2436,7 +2436,7 @@ commander@2.17.x:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/commander/-/commander-2.17.1.tgz#1a2fc777ec4015ef554262e4b90299ad89e36204"
   integrity sha512-iJg5NeWKSWL4Ss9DG9GjYR6qjL/PWRyD5uhjbEGmThlrBPYlPcp4NnzYtElcCF/Lv1o5Y0BxDukTnMmfwCUcvw==
 
-commander@^2.18.0, commander@^2.19.0, commander@^2.20.0, commander@~2.20.0:
+commander@^2.18.0, commander@^2.19.0, commander@^2.20.0:
   version "2.20.0"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/commander/-/commander-2.20.0.tgz#3424f7a8401ae8e80225430d745415a1ccd45606"
   integrity sha512-zXgIu9YY2BSbzSwGbyco8/yqx0sDcuNeMzToaemOy/ASFmDeS1YLbbCOW3epJXV8MAFAlyMEmeIL1K/l7XL9TQ==
@@ -2445,6 +2445,11 @@ commander@~2.19.0:
   version "2.19.0"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/commander/-/commander-2.19.0.tgz#b837eda97d2a0b7c738b4ac21bf6c9f797921cf1"
   integrity sha512-AKGIyU3rirItuw7K6djL7htjTwyuswSQ48N/sqZW2DKIxcBDtKy9S6zV4ViR7ZckCwPPPF07+pcZPua0F/korg==
+
+commander@~2.20.3:
+  version "2.20.3"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -4092,9 +4097,9 @@ handle-thing@^2.0.0:
   integrity sha512-89l1IxaoJ3b6aF0uVO7sBeSBNcf9s7oNnF7EjhMzBMOy8hzItdX4Z0r1xaKKhlAyg5r+fJi2PYJxFi6rMpXRyg==
 
 handlebars@^4.0.3:
-  version "4.1.2"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/handlebars/-/handlebars-4.1.2.tgz#87903f2ba3a432b68158950554805599ee28ed74"
-  integrity sha512-/gD0/DDJP5ZeVZlALzx8wOboBloPM7r2V8a/3trmOAk5EG+R47w+ttff8mbT83oAZmCAEB6zSoPRueGmEdS7Jg==
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.5.3.tgz#5cf75bd8714f7605713511a56be7c349becb0482"
+  integrity sha512-3yPecJoJHK/4c6aZhSvxOyG4vJKDshV36VHp0iVCDVh7o9w2vwi3NSnL2MMPj3YdduqaBcu7cGbggJQM0br9xA==
   dependencies:
     neo-async "^2.6.0"
     optimist "^0.6.1"
@@ -6006,8 +6011,8 @@ minimist@^1.2.0:
 
 minimist@~0.0.1:
   version "0.0.10"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/minimist/-/minimist-0.0.10.tgz#33bfd14e53e454b27bc53befe97430d5714ccd1d"
-  integrity sha512-i+f1VMtiIgxhcf72fLENSQHAWHSPVPk8D9YEO2dUFWMpdYpQBjaYgrvqFkLRpkqJb5Wd8xV9Nlh+oYkWlqe8Yg==
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
+  integrity sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8=
 
 minipass@^2.2.1:
   version "2.2.4"
@@ -6170,15 +6175,10 @@ negotiator@0.6.2:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/negotiator/-/negotiator-0.6.2.tgz#6f5fd174a30bb4be16288e9f08789b13152b2c3b"
   integrity sha512-sSfhd7UzyPGkW5dn5So4zA4Ba9Yl1x9PqS8/M5xfPbSmpdqQz7JEfZqFDKZeS6ilN4JRxtdsjm5le6TtNd92SA==
 
-neo-async@^2.5.0:
-  version "2.5.2"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/neo-async/-/neo-async-2.5.2.tgz#916560b66412da21770b3b6aeafed5d02da47710"
-  integrity sha512-f4g7UM/YuN7Q3DRYM1qA9MY9DpDaARj8RcXqP/ipWfoYefpjfwO4m86CWgNhEbWq2AMkIDIPXWaBdpuFdRtnYg==
-
-neo-async@^2.6.0:
+neo-async@^2.5.0, neo-async@^2.6.0:
   version "2.6.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/neo-async/-/neo-async-2.6.1.tgz#36d9381f58d626dcb5300588a16b9c7a4682d5fa"
-  integrity sha512-vTIA5IhFU7id1hv0lxvXZOlrww1HrT6AabjuiFPZDVB3jjxFuWz4RKqIwmRsCHWwzI06cbG5PyDwdYm5qhdYTg==
+  resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
+  integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
 nice-try@^1.0.4:
   version "1.0.4"
@@ -6530,8 +6530,8 @@ opn@^5.5.0:
 
 optimist@^0.6.1:
   version "0.6.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/optimist/-/optimist-0.6.1.tgz#c006a95d1f8e3791190459302eb4a34cbcf7beaf"
-  integrity sha512-cNrrwJWAk+OS4Lb7FfKRO3L6ysidKJ2y6wIEW8ckyDQ7hbECBDa1WqSXk2oLwkxgnV0Mche593BZJWqkxKJeAQ==
+  resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
+  integrity sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
   dependencies:
     minimist "~0.0.1"
     wordwrap "~0.0.2"
@@ -8269,20 +8269,15 @@ source-map-url@^0.4.0:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map-url/-/source-map-url-0.4.0.tgz#28b0550ca01ffec9552f965a933a1a11e291ba2a"
   integrity sha512-UObdFPkYdlBd6BNRhc5cnca8yhXJNf0eKNapXNDACJImN5GAxx+Pgxq47bqc5ZYo1OieksuGy3DfdSQ+Rimmtg==
 
-source-map@^0.5.0, source-map@^0.5.3:
-  version "0.5.5"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map/-/source-map-0.5.5.tgz#2e39238fb02e29c146c71fed98f97f6ddd0b23d4"
-  integrity sha512-7wP48w4g5EYgyaQpmqUM2JmeJc2EUCCqJ8WUkCZJUqtclncj5qLE4RR6sSL2AsRrMO8ZLooR2n+dYjaxapy/KQ==
-
-source-map@^0.5.6:
+source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6:
   version "0.5.7"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map/-/source-map-0.5.7.tgz#bbba0121acae60c79c50b86a16ab92eb26d4a058"
   integrity sha512-XgQuv8vm5Tx+FLir/yXBwTjyMLHrv0PYibx06kB+KPVYy8WSZeYOPLX1ELsHj2IF9KjoqtmQhNqXzxLlZepR9Q==
 
 source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   version "0.6.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map/-/source-map-0.6.1.tgz#8cbb11b1fa4b2db9bbc17885cd2d7bebf51a7ea5"
-  integrity sha512-NFKq3mNiEK63fiI0C8HW/fODKMCZVEzp36gRKtYxSGUoafBcfeCjeTwVaZzKwLyHGsF1EblYxLHDW4xBTQ8RAg==
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+  integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
 spdx-correct@^3.0.0:
   version "3.1.0"
@@ -8918,11 +8913,11 @@ uglify-js@3.4.x:
     source-map "~0.6.1"
 
 uglify-js@^3.1.4:
-  version "3.6.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/uglify-js/-/uglify-js-3.6.0.tgz#daaf8d87de3bb3303d6b616d085f0c964f7919d3"
-  integrity sha512-TjKa+ucXbMXd9iMYVaak1X/mu+F0ZU6NySsTJ3go0uh34kakM2vgBwSNiiHcROIQ7xlxRgTaUoMsr2hYbc8UgA==
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.7.3.tgz#f918fce9182f466d5140f24bb0ff35c2d32dcc6a"
+  integrity sha512-7tINm46/3puUA4hCkKYo4Xdts+JDaVC9ZPRcG8Xw9R4nhO/gZgUM3TENq8IF4Vatk8qCig4MzP/c8G4u2BkVQg==
   dependencies:
-    commander "~2.20.0"
+    commander "~2.20.3"
     source-map "~0.6.1"
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
@@ -9447,9 +9442,9 @@ wide-align@^1.1.0:
     string-width "^1.0.2 || 2"
 
 wordwrap@~0.0.2:
-  version "0.0.2"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/wordwrap/-/wordwrap-0.0.2.tgz#4b5710eb56259c631a3af08eaaa8ce4ec6860124"
-  integrity sha512-hwu5IyHD+1USg67/Xf+0yNoklNw0eaZWa5n/mnnzj1Z+YTCqNBOxsg5iZ0yJ/oewSIBz4Tg3Xr1/5ePSVIqbiA==
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
+  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
 
 wordwrap@~1.0.0:
   version "1.0.0"
