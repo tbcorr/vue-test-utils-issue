@@ -1232,16 +1232,11 @@ acorn-walk@^6.0.1, acorn-walk@^6.1.1:
   integrity sha512-Uj0sfFpRY/W3ig+Ad9tbE+nR+hFC/3D6ywyMYeJ9BI8wu0Q4fEk8bG9ay55XYjmAXcPbqW5+/VN0O9ubFbyCeQ==
 
 acorn@^5.0.0, acorn@^5.5.3, acorn@^5.6.2:
-  version "5.7.3"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/acorn/-/acorn-5.7.3.tgz#200041bfc00d730d7900b92396426117b6528c7e"
-  integrity sha512-Zm/IJJ52FEfNxCiADZtO9VHyyX3nia3jn6d+p31rATD+bvnKvIKLnEQ/+KTQiN9I517J9+XFdRX+Qy0GcW5BYg==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
-acorn@^6.0.1:
-  version "6.0.6"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/acorn/-/acorn-6.0.6.tgz#91d1d720305b7c20065f367d457c3c7d798fcb44"
-  integrity sha512-WQjXwLoHaiQuXR+UNlPi0yflw5QLeSFE+SjXujkAEPnL5MGaRT/C7neYrsNNGYEwErpVEdCC9/ZZTiAG1MlEEg==
-
-acorn@^6.0.7, acorn@^6.1.1:
+acorn@^6.0.1, acorn@^6.0.7, acorn@^6.1.1:
   version "6.2.1"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/acorn/-/acorn-6.2.1.tgz#c2857636c0f56eff6bce8df830d861d2c60b48a7"
   integrity sha512-2hkujzXvN1X0E6rDfujxk47kYLbzm7Oh/H8K/yWWM00/EyzM9azk3KG35m7uYM1OoeJrqQSM1nrrbHOTmbMDGw==
