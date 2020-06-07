@@ -9395,9 +9395,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/websocket-extensions/-/websocket-extensions-0.1.3.tgz#cafacd635d703a9b9539e72ea478949b591a3196"
-  integrity sha512-7DhRzBktn0ljSseOuPEBUf4a5i4ZKWoCAGdlTDXYcYEFL9Qy8Yz26NKHkFzJ5seDrBhgRCLv/eOJePHpaHDjzQ==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
   version "1.0.3"
