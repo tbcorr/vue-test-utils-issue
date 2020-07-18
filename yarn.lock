@@ -5693,15 +5693,10 @@ lodash.uniq@^4.5.0:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/lodash.uniq/-/lodash.uniq-4.5.0.tgz#c836323b6f31b582d833883db4931fd4a2746f41"
   integrity sha512-rALTh7zxclW05rgEQXAdppeynvNeeZ45qU7JK61Gix4L+PhaOV5bSICR7zqhiLVqigQy+I8NO3Gp+4EtHqVHPQ==
 
-lodash@^4.17.11, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0:
-  version "4.17.12"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/lodash/-/lodash-4.17.12.tgz#aab35fd92a8ab8e88de510c68cf710ab95ba82ef"
-  integrity sha512-6FWwoqm6EQc1Ieku3/5mx4HQ4j21/Hm5+t0wu+VnA5mbsVIAsZsjGm6fZhiTPI0tbHU0YYe9jm2w8DWyKSGZjw==
-
-lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/lodash/-/lodash-4.17.15.tgz#3c4ac4140eb058629170954a3eaee260d60c9bb1"
-  integrity sha512-D61Px96uM9ZolSkaw02zOJ8ro3pQHnbWvrJfAWOC2RwxIozIEHcom77PLh63W09Eq4GotF3dUdwx5SbC15bP6A==
+lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
