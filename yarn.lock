@@ -3458,10 +3458,10 @@ event-pubsub@4.3.0:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/event-pubsub/-/event-pubsub-4.3.0.tgz#f920a92a0fe60a1ed1ff8832f9ba7f51823daa22"
   integrity sha512-NN1VmTXJuJZVBnFhjv3StfQdet7x9Nx0g8YV4nL+IuhdnZBnRwPxlbd/rbiRL9GtRFyS/p1dFSKbprjV3xpAKw==
 
-eventemitter3@^3.0.0:
-  version "3.1.2"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/eventemitter3/-/eventemitter3-3.1.2.tgz#41569bb0ecab2dbb31d4761cdbf585796bd4888d"
-  integrity sha512-JMeFVsoBc90hDEF9LFnBAGAol1onENeNPdLCTC3nnyn4J/0FLXgc7N24DwdVFfTge1n+CioIomDTW2gwo/rQ+Q==
+eventemitter3@^4.0.0:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.0.0"
@@ -3827,11 +3827,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^3.1.1"
 
 follow-redirects@^1.0.0:
-  version "1.4.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/follow-redirects/-/follow-redirects-1.4.1.tgz#fd4929b870e00f6f1597b8eede9e57288a58e0cc"
-  integrity sha512-nx0I/fJcCNvDRnjWFIbMj8XfQu4Rs1NgKUHXLBCFb14YIiTiVIo0by9JSjvm2iD1PfmBAQLZJB+ZdTsMybHBAg==
-  dependencies:
-    debug "^3.1.0"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-in@^0.1.5:
   version "0.1.8"
@@ -4365,11 +4363,11 @@ http-proxy-middleware@^0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.17.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/http-proxy/-/http-proxy-1.17.0.tgz#c0e7d1fde4cbb79979a95f7e8d7e22db5db22235"
-  integrity sha512-WTew2kcloaDqrDJak5LWUchIJbgbQEbEz70FKYPQzWtKPIj93mniZbOlEdkL+HetH7asyVONqKSVY/7eJ5Thbg==
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
-    eventemitter3 "^3.0.0"
+    eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
     requires-port "^1.0.0"
 
@@ -7825,8 +7823,8 @@ require-main-filename@^2.0.0:
 
 requires-port@1.0.x, requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/requires-port/-/requires-port-1.0.0.tgz#06c1cfca5a383fd358ff40077ef7b3ffd1bad871"
-  integrity sha512-GpsgVR9DQ4cRGzmIfFtE313t2lGc5wsgj4a38C6HLkT8UABpNV5X3jiecb5XN3qcRn9NTm7tkEeAVPQePCq4NQ==
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 reselect@^3.0.1:
   version "3.0.1"
