@@ -4212,9 +4212,9 @@ hex-color-regex@^1.1.0:
   integrity sha512-X7dLaVZj1COxJ9s6CMESZ1XJwRwHYV/p7xrgHIYjuEQ41No5CAoGlpg1JVZfep/DjpcMIb9i7P+8T/yDlM5myQ==
 
 highlight.js@^9.6.0:
-  version "9.15.8"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/highlight.js/-/highlight.js-9.15.8.tgz#ce888cfba40a5f22c5e9ce5c47543e558d8eb932"
-  integrity sha512-GhNolbJba3UeSI1MC1EQBTu7op0MHAo/c7o5V6/CBDRqrKoATWK7FiiaCKjNMHU/FMY8PyaVzMZph3gfr1Vo3A==
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
