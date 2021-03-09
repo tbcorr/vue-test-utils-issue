@@ -1864,10 +1864,10 @@ bluebird@^3.5.1, bluebird@^3.5.5:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/bluebird/-/bluebird-3.5.5.tgz#2ae69197876715c56f05ffdab282739449d20d88"
   integrity sha512-pRpkBI2l+Qrc+b/h2XR47/4/yjvleM5UAJBQV570Pqgi/0nFy2EDuUFVbCVh5sEtWHvXrMBXf9ovCRHmfalmHQ==
 
-bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/bn.js/-/bn.js-4.11.8.tgz#c4940e9906425a7b1076d0c40c4b037694cd5a0f"
-  integrity sha512-CPJFpy98IQbPOC6rT8ccZDD3GVM36T3jiAubsVhq6hgIT3BQmTu2eDEAt4Rg4hZyHudLTJgDNAT4g3wEdQ/sbA==
+bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.11.9:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.12.0.tgz#775b3f278efbb9718eec7361f483fb36fbbfea88"
+  integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
 
 body-parser@1.19.0:
   version "1.19.0"
@@ -1935,10 +1935,10 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-brorand@^1.0.1:
-  version "1.0.5"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/brorand/-/brorand-1.0.5.tgz#4ef9acdc960ebb0a6f075e60943e87de7bda0ad8"
-  integrity sha512-gtur3uo9DmYyqY3Uo0dj41sSAUTG+C5t5EMd9BcgcBcdUU7rkI9ryAACfo4rEa3ZjtcANwswXxrOTxDC3BCGJA==
+brorand@^1.0.1, brorand@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
+  integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
 
 browser-process-hrtime@^0.1.2:
   version "0.1.2"
@@ -3275,14 +3275,17 @@ electron-to-chromium@^1.3.191:
   integrity sha512-Xuo0Pb1fu+8wnHIjba0X8KWtjWje4OXdVkxT8ouwvNkhMxHdLO7CZxTuP/v+OHvA+i5k6vqDJ+7ZQWOjDb7xCA==
 
 elliptic@^6.0.0:
-  version "6.3.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/elliptic/-/elliptic-6.3.1.tgz#e4770d7f6706374a563fdab9de1a3bbdf2caa225"
-  integrity sha512-hStx88MFyRLGEr4VxpydFkYb4qhzOrgYCxVtFPIoorFSgJ8QGxWELf8KaO0+Y9svrEKIG2HOkJoBxnCW/64W6Q==
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
+  integrity sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==
   dependencies:
-    bn.js "^4.4.0"
-    brorand "^1.0.1"
+    bn.js "^4.11.9"
+    brorand "^1.1.0"
     hash.js "^1.0.0"
-    inherits "^2.0.1"
+    hmac-drbg "^1.0.1"
+    inherits "^2.0.4"
+    minimalistic-assert "^1.0.1"
+    minimalistic-crypto-utils "^1.0.1"
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -4193,13 +4196,13 @@ hash-sum@^1.0.2:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/hash-sum/-/hash-sum-1.0.2.tgz#e1d80693fc5787ba0877f6cce82025bba18b2d33"
   integrity sha512-TKvfDwU4i9A+wZa9B8c1CdC5nLxaR3c4j5xeCbIy1kbx1H1L84zQziBVWhr1rFrPdMbvsqybaLBsVSKaEY6VZg==
 
-hash.js@^1.0.0:
-  version "1.1.3"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/hash.js/-/hash.js-1.1.3.tgz#d048b4157c478e3b47f789ac28a4c61a2ea90379"
-  integrity sha512-UoJFqOckTfG4p2i5+rlLY5t3HNzfnvSl4zQJqmOsLe0cHuULzEWpNf0+uh0Ep8Vaid1kbkFimAuG8+ydEHq1uw==
+hash.js@^1.0.0, hash.js@^1.0.3:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/hash.js/-/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
+  integrity sha512-taOaskGt4z4SOANNseOviYDvjEJinIkRgmp7LbKP2YTTmVxWBl87s/uzK9r+44BclBSp2X7K1hqeNfz9JbBeXA==
   dependencies:
     inherits "^2.0.3"
-    minimalistic-assert "^1.0.0"
+    minimalistic-assert "^1.0.1"
 
 he@1.2.x, he@^1.1.0:
   version "1.2.0"
@@ -4215,6 +4218,15 @@ highlight.js@^9.6.0:
   version "9.15.8"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/highlight.js/-/highlight.js-9.15.8.tgz#ce888cfba40a5f22c5e9ce5c47543e558d8eb932"
   integrity sha512-GhNolbJba3UeSI1MC1EQBTu7op0MHAo/c7o5V6/CBDRqrKoATWK7FiiaCKjNMHU/FMY8PyaVzMZph3gfr1Vo3A==
+
+hmac-drbg@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
+  integrity sha1-0nRXAQJabHdabFRXk+1QL8DGSaE=
+  dependencies:
+    hash.js "^1.0.3"
+    minimalistic-assert "^1.0.0"
+    minimalistic-crypto-utils "^1.0.1"
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -4499,20 +4511,20 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.3, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.1, inherits@~2.0.3:
-  version "2.0.3"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/inherits/-/inherits-2.0.3.tgz#dd109f3cd75f88b5a16e8ba46ba38dfd8a74f3b3"
-  integrity sha512-3xHmVSROwvaFnC2LcyJzgKTdHHDoG0glhgs4lcQmo/ItkshreGFHRpGkEI3s9t3T/3AUVEXIrCBQ2tg4Y/szhQ==
+inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.1, inherits@~2.0.3:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
+  integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 inherits@2.0.1:
   version "2.0.1"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/inherits/-/inherits-2.0.1.tgz#987818c577e3c287ae4e048a5e4a40066c552227"
   integrity sha512-BNhxrxP6XzmyohsxbTEHRNC+brE/30ZEOgrO64lpPrHx1V4QvTQsS4Pwt9WLogZT3av40o1ZXXXf5agyzffqMA==
 
-inherits@2.0.4:
-  version "2.0.4"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/inherits/-/inherits-2.0.4.tgz#718377915dd80066eacb4bd171d6056668063c91"
-  integrity sha512-mBqz62xJxVWDn+8uxQ8I186bDx7Wac5E9Q4o3pOg6Iq/1m6BNkTqvtwtVoPNgdXlvwsHnbZ1+RZtm2JpSnoF+Q==
+inherits@2.0.3:
+  version "2.0.3"
+  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/inherits/-/inherits-2.0.3.tgz#dd109f3cd75f88b5a16e8ba46ba38dfd8a74f3b3"
+  integrity sha512-3xHmVSROwvaFnC2LcyJzgKTdHHDoG0glhgs4lcQmo/ItkshreGFHRpGkEI3s9t3T/3AUVEXIrCBQ2tg4Y/szhQ==
 
 ini@^1.3.4, ini@~1.3.0:
   version "1.3.4"
@@ -5977,10 +5989,15 @@ mini-css-extract-plugin@^0.6.0:
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
 
-minimalistic-assert@^1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/minimalistic-assert/-/minimalistic-assert-1.0.0.tgz#dbcf6b1c260e7939271e8aa638eaa91ea2538178"
-  integrity sha512-nUWEs2Bk95RMYR8Rld621kMh0xYvYiq93XagW1tYyf8FdS6e6X4LU3JqUwUH7VZk6PTVRqF6kCR81gJTizLoVw==
+minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
+  integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
+
+minimalistic-crypto-utils@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
+  integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
 
 minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
