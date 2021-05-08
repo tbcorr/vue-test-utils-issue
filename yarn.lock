@@ -2436,7 +2436,7 @@ commander@2.17.x:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/commander/-/commander-2.17.1.tgz#1a2fc777ec4015ef554262e4b90299ad89e36204"
   integrity sha512-iJg5NeWKSWL4Ss9DG9GjYR6qjL/PWRyD5uhjbEGmThlrBPYlPcp4NnzYtElcCF/Lv1o5Y0BxDukTnMmfwCUcvw==
 
-commander@^2.18.0, commander@^2.19.0, commander@^2.20.0, commander@~2.20.0:
+commander@^2.18.0, commander@^2.19.0, commander@^2.20.0:
   version "2.20.0"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/commander/-/commander-2.20.0.tgz#3424f7a8401ae8e80225430d745415a1ccd45606"
   integrity sha512-zXgIu9YY2BSbzSwGbyco8/yqx0sDcuNeMzToaemOy/ASFmDeS1YLbbCOW3epJXV8MAFAlyMEmeIL1K/l7XL9TQ==
@@ -4092,13 +4092,14 @@ handle-thing@^2.0.0:
   integrity sha512-89l1IxaoJ3b6aF0uVO7sBeSBNcf9s7oNnF7EjhMzBMOy8hzItdX4Z0r1xaKKhlAyg5r+fJi2PYJxFi6rMpXRyg==
 
 handlebars@^4.0.3:
-  version "4.1.2"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/handlebars/-/handlebars-4.1.2.tgz#87903f2ba3a432b68158950554805599ee28ed74"
-  integrity sha512-/gD0/DDJP5ZeVZlALzx8wOboBloPM7r2V8a/3trmOAk5EG+R47w+ttff8mbT83oAZmCAEB6zSoPRueGmEdS7Jg==
+  version "4.7.7"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
+  integrity sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==
   dependencies:
+    minimist "^1.2.5"
     neo-async "^2.6.0"
-    optimist "^0.6.1"
     source-map "^0.6.1"
+    wordwrap "^1.0.0"
   optionalDependencies:
     uglify-js "^3.1.4"
 
@@ -5994,20 +5995,10 @@ minimist@0.0.8:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/minimist/-/minimist-0.0.8.tgz#9c218ac47cb82079ab6a70372cefc1a0711341bb"
   integrity sha512-9Cgcmw+qt3tkhCvWBIziTM+XfrBNJhtmy15vT+2aKm60bbFYhS1aryyoNMHku6LQT5AjoNp3QaqCmzor/g2Dyw==
 
-minimist@^1.1.1:
-  version "1.1.3"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/minimist/-/minimist-1.1.3.tgz#dc8c77417e22de908f6d5222d96092342c961009"
-  integrity sha512-yRtRzw4Kk/qVPDicTpV/8SBomZ1eQfsMR4hq6k8apBepD1DG4cyEwCXHzVtZhO6JNu0Xf8ZVyH4YGMw3oz2SRw==
-
-minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/minimist/-/minimist-1.2.0.tgz#5bddbeeb6e317c089e211ef35eca2e5b3cc79a15"
-  integrity sha512-0OEJbLqKORbP6RiHjkqpktVhhsLrftUkQ6EBcStl/6P+ZU46+tNiWuVn1K8hBZczUnp8LUMpFGX5naySU+YJ1w==
-
-minimist@~0.0.1:
-  version "0.0.10"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/minimist/-/minimist-0.0.10.tgz#33bfd14e53e454b27bc53befe97430d5714ccd1d"
-  integrity sha512-i+f1VMtiIgxhcf72fLENSQHAWHSPVPk8D9YEO2dUFWMpdYpQBjaYgrvqFkLRpkqJb5Wd8xV9Nlh+oYkWlqe8Yg==
+minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
 minipass@^2.2.1:
   version "2.2.4"
@@ -6170,15 +6161,10 @@ negotiator@0.6.2:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/negotiator/-/negotiator-0.6.2.tgz#6f5fd174a30bb4be16288e9f08789b13152b2c3b"
   integrity sha512-sSfhd7UzyPGkW5dn5So4zA4Ba9Yl1x9PqS8/M5xfPbSmpdqQz7JEfZqFDKZeS6ilN4JRxtdsjm5le6TtNd92SA==
 
-neo-async@^2.5.0:
-  version "2.5.2"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/neo-async/-/neo-async-2.5.2.tgz#916560b66412da21770b3b6aeafed5d02da47710"
-  integrity sha512-f4g7UM/YuN7Q3DRYM1qA9MY9DpDaARj8RcXqP/ipWfoYefpjfwO4m86CWgNhEbWq2AMkIDIPXWaBdpuFdRtnYg==
-
-neo-async@^2.6.0:
-  version "2.6.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/neo-async/-/neo-async-2.6.1.tgz#36d9381f58d626dcb5300588a16b9c7a4682d5fa"
-  integrity sha512-vTIA5IhFU7id1hv0lxvXZOlrww1HrT6AabjuiFPZDVB3jjxFuWz4RKqIwmRsCHWwzI06cbG5PyDwdYm5qhdYTg==
+neo-async@^2.5.0, neo-async@^2.6.0:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
+  integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
 nice-try@^1.0.4:
   version "1.0.4"
@@ -6527,14 +6513,6 @@ opn@^5.5.0:
   integrity sha512-uGseAhzMH7C0xi7purCCc26YWuyKGWqOXhG3uBktczJULTysaWS5qu8NBz/8fBsOt192oN8mTTW2ApT9KDljUQ==
   dependencies:
     is-wsl "^1.1.0"
-
-optimist@^0.6.1:
-  version "0.6.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/optimist/-/optimist-0.6.1.tgz#c006a95d1f8e3791190459302eb4a34cbcf7beaf"
-  integrity sha512-cNrrwJWAk+OS4Lb7FfKRO3L6ysidKJ2y6wIEW8ckyDQ7hbECBDa1WqSXk2oLwkxgnV0Mche593BZJWqkxKJeAQ==
-  dependencies:
-    minimist "~0.0.1"
-    wordwrap "~0.0.2"
 
 optionator@^0.8.1:
   version "0.8.2"
@@ -8269,20 +8247,15 @@ source-map-url@^0.4.0:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map-url/-/source-map-url-0.4.0.tgz#28b0550ca01ffec9552f965a933a1a11e291ba2a"
   integrity sha512-UObdFPkYdlBd6BNRhc5cnca8yhXJNf0eKNapXNDACJImN5GAxx+Pgxq47bqc5ZYo1OieksuGy3DfdSQ+Rimmtg==
 
-source-map@^0.5.0, source-map@^0.5.3:
-  version "0.5.5"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map/-/source-map-0.5.5.tgz#2e39238fb02e29c146c71fed98f97f6ddd0b23d4"
-  integrity sha512-7wP48w4g5EYgyaQpmqUM2JmeJc2EUCCqJ8WUkCZJUqtclncj5qLE4RR6sSL2AsRrMO8ZLooR2n+dYjaxapy/KQ==
-
-source-map@^0.5.6:
+source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6:
   version "0.5.7"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map/-/source-map-0.5.7.tgz#bbba0121acae60c79c50b86a16ab92eb26d4a058"
   integrity sha512-XgQuv8vm5Tx+FLir/yXBwTjyMLHrv0PYibx06kB+KPVYy8WSZeYOPLX1ELsHj2IF9KjoqtmQhNqXzxLlZepR9Q==
 
 source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   version "0.6.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map/-/source-map-0.6.1.tgz#8cbb11b1fa4b2db9bbc17885cd2d7bebf51a7ea5"
-  integrity sha512-NFKq3mNiEK63fiI0C8HW/fODKMCZVEzp36gRKtYxSGUoafBcfeCjeTwVaZzKwLyHGsF1EblYxLHDW4xBTQ8RAg==
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+  integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
 spdx-correct@^3.0.0:
   version "3.1.0"
@@ -8918,12 +8891,9 @@ uglify-js@3.4.x:
     source-map "~0.6.1"
 
 uglify-js@^3.1.4:
-  version "3.6.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/uglify-js/-/uglify-js-3.6.0.tgz#daaf8d87de3bb3303d6b616d085f0c964f7919d3"
-  integrity sha512-TjKa+ucXbMXd9iMYVaak1X/mu+F0ZU6NySsTJ3go0uh34kakM2vgBwSNiiHcROIQ7xlxRgTaUoMsr2hYbc8UgA==
-  dependencies:
-    commander "~2.20.0"
-    source-map "~0.6.1"
+  version "3.13.5"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.13.5.tgz#5d71d6dbba64cf441f32929b1efce7365bb4f113"
+  integrity sha512-xtB8yEqIkn7zmOyS2zUNBsYCBRhDkvlNxMMY2smuJ/qA8NCHeQvKCF3i9Z4k8FJH4+PJvZRtMrPynfZ75+CSZw==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
@@ -9446,15 +9416,10 @@ wide-align@^1.1.0:
   dependencies:
     string-width "^1.0.2 || 2"
 
-wordwrap@~0.0.2:
-  version "0.0.2"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/wordwrap/-/wordwrap-0.0.2.tgz#4b5710eb56259c631a3af08eaaa8ce4ec6860124"
-  integrity sha512-hwu5IyHD+1USg67/Xf+0yNoklNw0eaZWa5n/mnnzj1Z+YTCqNBOxsg5iZ0yJ/oewSIBz4Tg3Xr1/5ePSVIqbiA==
-
-wordwrap@~1.0.0:
+wordwrap@^1.0.0, wordwrap@~1.0.0:
   version "1.0.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/wordwrap/-/wordwrap-1.0.0.tgz#45ba0634facd2ec7959aca34a1eb1af8e30b2079"
-  integrity sha512-G4Baza6smc/rvNU39Phz7gfj87fWbDD7/2smxjWmHbK5neQ0/E8h2b95jUydy6qlppB11VoQ/oR3f1Trn2G6fw==
+  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
+  integrity sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus=
 
 worker-farm@^1.7.0:
   version "1.7.0"
