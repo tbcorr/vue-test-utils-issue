@@ -4230,9 +4230,9 @@ hoopy@^0.1.4:
   integrity sha512-xRcfTzD7VuOcqTNWtRp8ZyHhQwAFx7vz8KvpokIoUmrBmEl4Ae7+zRFF1kkW0kjHoe8PupL9kfoMo12kMT8GwQ==
 
 hosted-git-info@^2.1.4:
-  version "2.1.4"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/hosted-git-info/-/hosted-git-info-2.1.4.tgz#7e73f766b62afe432f4628e299b436df7599ac9c"
-  integrity sha512-nLBy0QvJOQWYrrHSlRcgAlTRqYEvqvigvvOlj8PNhnvbSjnnGW7PtXysUz0E2vj9fl1lzrqbdXR5DVDQ3fGnlQ==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
