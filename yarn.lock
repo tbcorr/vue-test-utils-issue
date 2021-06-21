@@ -4604,8 +4604,8 @@ is-binary-path@^1.0.0:
 
 is-buffer@^1.1.5:
   version "1.1.6"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/is-buffer/-/is-buffer-1.1.6.tgz#738a7c5b13db50045ed65ac907aaba53bf66932a"
-  integrity sha512-m8OexqD7/O3nqf0O8/0dyONPLEPoD3xxc7NGQv5XERQipsK1OaiTRG+5cErYF5EDjl3PezNflMgQhCCHjs3Dig==
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
+  integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
 
 is-builtin-module@^3.0.0:
   version "3.0.0"
@@ -5521,8 +5521,8 @@ killable@^1.0.1:
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/kind-of/-/kind-of-3.2.2.tgz#04f9759f60dfde2caca92d08e97a8cfc00be1f28"
-  integrity sha512-fYiwl/1Vms5TtDc5+sDnPilfyp9nftT4ZbRK8iaKJbRGuVB1mohj4NDcNLf2fI9eAtFR7xpmzQ8iUyg59pkj/A==
+  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
+  integrity sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=
   dependencies:
     is-buffer "^1.1.5"
 
@@ -8062,9 +8062,9 @@ set-blocking@^2.0.0, set-blocking@~2.0.0:
   integrity sha512-OIjg33AoQDEOYvdZntXz7aDWHm4yzx6f+3aiYeSqKM75xy8wJxbEYGph720nN9o9lzgj6LG5A2pUZoIEazEbzQ==
 
 set-getter@^0.1.0:
-  version "0.1.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/set-getter/-/set-getter-0.1.0.tgz#32fc4b93c3d9e3a6422a6ffbd01ec282b55bb6df"
-  integrity sha512-MZodq+Y7pMKop6zZ+YEdyJLwKA0cnZpzPb6g8GhWdfHMmEdzWNi95eoCmRD8qi/Xs0YEdHox5zPuriTq2k+5Dg==
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/set-getter/-/set-getter-0.1.1.tgz#a3110e1b461d31a9cfc8c5c9ee2e9737ad447102"
+  integrity sha512-9sVWOy+gthr+0G9DzqqLaYNA7+5OKkSmcqjL9cBpDEaZrr3ShQlyX2cZ/O/ozE41oxn/Tt0LGEM/w4Rub3A3gw==
   dependencies:
     to-object-path "^0.3.0"
 
@@ -8772,8 +8772,8 @@ to-fast-properties@^2.0.0:
 
 to-object-path@^0.3.0:
   version "0.3.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/to-object-path/-/to-object-path-0.3.0.tgz#f937eaf43f0396ff5f13e7ebf0946308ec4481a5"
-  integrity sha512-qdxKl0oEfOaZ8QGLKr+YkbHFOMh8FXhMlvLpimEXXldGpbxBLkBm1L69hNVTsiJm3xu4MkgBbWMypmjoR3trIg==
+  resolved "https://registry.yarnpkg.com/to-object-path/-/to-object-path-0.3.0.tgz#297588b7b0e7e0ac08e04e672f85c1f4999e17af"
+  integrity sha1-KXWIt7Dn4KwI4E5nL4XB9JmeF68=
   dependencies:
     kind-of "^3.0.2"
 
