@@ -8751,9 +8751,9 @@ timsort@^0.3.0:
   integrity sha512-S291io9b7E6wjh4D1ppcH3C79sEnlentS9z4OXChRzu3rkfPLkam3NnGk7SCDTamsKJSCgJw/413zudBqf3IvQ==
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/tmpl/-/tmpl-1.0.4.tgz#df0472ccc4d657f2561c886410a6739b14954298"
-  integrity sha512-I1hUrTuphK2QYbp516lM6CUAlSQanqI+F+TmUFJ/dJ1TgGw+XlcFa54JVO0Lgg5tlEaqceph6hQoC3CwidHDrQ==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
