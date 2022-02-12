@@ -3827,11 +3827,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^3.1.1"
 
 follow-redirects@^1.0.0:
-  version "1.4.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/follow-redirects/-/follow-redirects-1.4.1.tgz#fd4929b870e00f6f1597b8eede9e57288a58e0cc"
-  integrity sha512-nx0I/fJcCNvDRnjWFIbMj8XfQu4Rs1NgKUHXLBCFb14YIiTiVIo0by9JSjvm2iD1PfmBAQLZJB+ZdTsMybHBAg==
-  dependencies:
-    debug "^3.1.0"
+  version "1.14.8"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.8.tgz#016996fb9a11a100566398b1c6839337d7bfa8fc"
+  integrity sha512-1x0S9UVJHsQprFcEC/qnNzBLcIxsjAV905f/UkQxbclCsoTWlacCNOpQa/anodLl2uaEKFhfWOvM2Qg77+15zA==
 
 for-in@^0.1.5:
   version "0.1.8"
