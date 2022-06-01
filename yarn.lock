@@ -3469,9 +3469,9 @@ events@^3.0.0:
   integrity sha512-zEeYqtVHC+hJPucJJGIHQ7xXr48WYlMEgFIyAyU60Xe9Vqz/T6cF6RpUUOkqTGx3pdFN4DeLx4jaiScVfKPAlg==
 
 eventsource@^1.0.7:
-  version "1.0.7"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/eventsource/-/eventsource-1.0.7.tgz#c6a45a28033caf108c61c45dc860f1dfbd52a3f9"
-  integrity sha512-OPIAVWCfC+9HzSdHKRV+HKSw7StCz8YX+tQk0ylQJgx47ihol73+B6fuq7KN0u341uWiBgHwhZts18FkHiaYwA==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-1.1.1.tgz#4544a35a57d7120fba4fa4c86cb4023b2c09df2f"
+  integrity sha512-qV5ZC0h7jYIAOhArFJgSfdyz6rALJyb270714o7ZtNnw2WSJ+eexhKtE0O8LYPRsHZHf2osHKZBxGPvm3kPkCA==
   dependencies:
     original "^1.0.0"
 
@@ -6561,11 +6561,11 @@ ora@^3.4.0:
     wcwidth "^1.0.1"
 
 original@^1.0.0:
-  version "1.0.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/original/-/original-1.0.0.tgz#ebafcb1fa2aa7431ae624e2c658e85c4410838f0"
-  integrity sha512-ae+TohcJRtQkTepG41HSiEL6vS7mXMjdd79U+gcnCSbmYiQWgnn/t6fBCA1TK9G3F1wU4CZA7mWxWOWDDwIuSg==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/original/-/original-1.0.2.tgz#e442a61cffe1c5fd20a65f3261c26663b303f25f"
+  integrity sha512-hyBVl6iqqUOJ8FqRe+l/gS8H+kKYjrEndd5Pm1MfBtsEKA038HkkdbAl/72EAXGyonD/PFsvmVG+EvcIpliMBg==
   dependencies:
-    url-parse "1.0.x"
+    url-parse "^1.4.3"
 
 os-browserify@^0.3.0:
   version "0.3.0"
@@ -7460,15 +7460,10 @@ querystring@0.2.0:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/querystring/-/querystring-0.2.0.tgz#7b91dc4720bdf6ef152168ad0da87209b804d7c8"
   integrity sha512-nyINFBjtFosZiuanPwKM8FktcOz+zn1GjmRP18wmmdGhClquwqjElz0DueW0qRHRjiMSqhD7Zm9e5vtmHWVJKA==
 
-querystringify@0.0.x:
-  version "0.0.4"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/querystringify/-/querystringify-0.0.4.tgz#bc09d02e1941cd20364c167092dfca6a2024492c"
-  integrity sha512-cKPJ/Ew7UM/Yx450ch2LuquwMVI36N/A8fwJnSqDJTt6jiMsw+hk0qviKjvLA5OiGN9OiC297lRJ2XJqxrQcYg==
-
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/querystringify/-/querystringify-2.1.1.tgz#72a240a729d08cf6e735534244c1961807e12473"
-  integrity sha512-J8mmxpBnw8UySaH1EJ5lfazXf22PvkNoGSHtLk48ebys2cQrLgwFRglcvs8XAJbJth4pg+w+blkgTR4A2uVAWA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randomatic@^3.0.0:
   version "3.0.0"
@@ -7823,10 +7818,10 @@ require-main-filename@^2.0.0:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/require-main-filename/-/require-main-filename-2.0.0.tgz#8be6fc75c8e074df2989d46a8774e406e513d0e1"
   integrity sha512-L7EleXKPfZnL7y4swMPWpRf9ndMxld/Pl/LHH8/C0+pyKlyK+bYq/jefBDYFO5XjvpvKqgDTODbKTVBrd37D4A==
 
-requires-port@1.0.x, requires-port@^1.0.0:
+requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/requires-port/-/requires-port-1.0.0.tgz#06c1cfca5a383fd358ff40077ef7b3ffd1bad871"
-  integrity sha512-GpsgVR9DQ4cRGzmIfFtE313t2lGc5wsgj4a38C6HLkT8UABpNV5X3jiecb5XN3qcRn9NTm7tkEeAVPQePCq4NQ==
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 reselect@^3.0.1:
   version "3.0.1"
@@ -9036,18 +9031,10 @@ url-loader@^1.1.2:
     mime "^2.0.3"
     schema-utils "^1.0.0"
 
-url-parse@1.0.x:
-  version "1.0.5"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/url-parse/-/url-parse-1.0.5.tgz#ff166c6a298be15a3864b18e6e5334a0b989df58"
-  integrity sha512-MeGuuH7guniDchWFIqILbqRja5il2fLL2R90f41aDE5BleirGOri8CHF0ZtvjJHPH82nVD2nFkAEh5KWUFXaKQ==
-  dependencies:
-    querystringify "0.0.x"
-    requires-port "1.0.x"
-
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/url-parse/-/url-parse-1.4.7.tgz#e1ac13d91f5eb5306cda0f26f338638ad94d4ac5"
-  integrity sha512-Qhfw8VzIYw6NdDL3viPAdpJt+fVRmFPLle7cVn7hZvtFD2FtegEByO4q5OBo4ZEqv8xXlTDCiae5XpQP8is4eg==
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
+  integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
