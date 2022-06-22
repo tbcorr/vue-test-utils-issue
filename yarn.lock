@@ -1395,11 +1395,6 @@ array-equal@^1.0.0:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/array-equal/-/array-equal-1.0.0.tgz#3e9a82e12a1e2bcd63dbd62ac51edce62c58e33b"
   integrity sha512-fJ7TCFgCXELSeMVmSeI9rLn3mlKbORGZb+lyn3VAGL6R+gpgNbE1GnQAJGn+o4OEjJaiokhXWGGODgy4OWtG4A==
 
-array-filter@~0.0.0:
-  version "0.0.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/array-filter/-/array-filter-0.0.1.tgz#d973728f57b71f61cbe84f18651dcbe5569cafaa"
-  integrity sha512-pqTaPKDrY9mXtAP07qzgKvhSJ8NZWVwoeWJWujGWcf1qOy5fmVndUfmvQ9m7tSdxpcJ+QXdEjkCuIsI+5MNmVg==
-
 array-flatten@1.1.1:
   version "1.1.1"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/array-flatten/-/array-flatten-1.1.1.tgz#09157ba724e21806b6d025b6c5636e46e482f401"
@@ -1409,16 +1404,6 @@ array-flatten@^2.1.0:
   version "2.1.2"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/array-flatten/-/array-flatten-2.1.2.tgz#97c5688e17e1e9e8b0582ab803de8bed2a70eef0"
   integrity sha512-8Cxg9tc8gRV5wVBmF9XRezXuSmLC3OLI+yulqUM4n8Md5hSJE2ja8PwdK+WvhU+9e51s6OQggfiQCU0efgOaQQ==
-
-array-map@~0.0.0:
-  version "0.0.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/array-map/-/array-map-0.0.0.tgz#266e03a26f34306af9fba63c5d89ef83785beb18"
-  integrity sha512-mUZ1U90gqTnNqEiectsc29DYJ4m0eRDjItEweXqSN1HM1ATjaUOVdWyYrGXNhqLt3XB7CnEhyFDx9ZGc9sDBzw==
-
-array-reduce@~0.0.0:
-  version "0.0.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/array-reduce/-/array-reduce-0.0.0.tgz#ed4ba498651ae06b510953f2609d0842fc56f87e"
-  integrity sha512-9F0oBsP5BihRAikI5sXgDpTP0aQb7FK19EE4ib0jyzSCC1JFCml5Of+mdE5eLdyzSo/f6YN78Yq1KcDuK2bw8g==
 
 array-union@^1.0.1:
   version "1.0.1"
@@ -5499,11 +5484,6 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jsonify@~0.0.0:
-  version "0.0.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/jsonify/-/jsonify-0.0.0.tgz#a1bde08c1f717c42dfed18831c0e6b47f80bb205"
-  integrity sha512-c9T9P1JW86b9pb3A6RCIhM+CS0BaYUmaHwtkdx4mZWHJRMHGziTSFNUujYsH2WGssVYyJubjC/fGnOkt5DET8A==
-
 jsprim@^1.2.2:
   version "1.4.1"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/jsprim/-/jsprim-1.4.1.tgz#1c5e50e2ea0db9a4da2a149df965e54a821d1b57"
@@ -8114,14 +8094,9 @@ shebang-regex@^1.0.0:
   integrity sha512-vVQvrf/Z7tOYwWNY6xM5avosYEcBR8FRrZEc5HEQe0cmjiIrAZWdnfTUiaoCFHp43CFY2xcrRO8LNWmL7T6oFg==
 
 shell-quote@^1.6.1:
-  version "1.6.1"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/shell-quote/-/shell-quote-1.6.1.tgz#6b403f166fe3c83c419be85cc875aaa91eac2d3b"
-  integrity sha512-Ty/WC5tddGsPqoMe9tfAvs5WVzukuxgyziS6wNwBnnXily9RSENTp47jSpx6uRW+kHao5e8MNljS0BvWtTNpuA==
-  dependencies:
-    array-filter "~0.0.0"
-    array-map "~0.0.0"
-    array-reduce "~0.0.0"
-    jsonify "~0.0.0"
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
+  integrity sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==
 
 shellwords@^0.1.1:
   version "0.1.1"
