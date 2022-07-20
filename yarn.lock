@@ -2027,9 +2027,9 @@ bser@^2.0.0:
     node-int64 "^0.4.0"
 
 buffer-from@^1.0.0:
-  version "1.1.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/buffer-from/-/buffer-from-1.1.0.tgz#21e940eada2376c21ea23ffe82643a67d2837b95"
-  integrity sha512-KgYMTmNb/bmB7kQGYD5MwhwdyIYFeCHTqDGK6gfixqKczuwTrQQUGiwtSFlAINoxQEAjLQzockL93JXJkeRwwA==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -2437,9 +2437,9 @@ commander@2.17.x:
   integrity sha512-iJg5NeWKSWL4Ss9DG9GjYR6qjL/PWRyD5uhjbEGmThlrBPYlPcp4NnzYtElcCF/Lv1o5Y0BxDukTnMmfwCUcvw==
 
 commander@^2.18.0, commander@^2.19.0, commander@^2.20.0, commander@~2.20.0:
-  version "2.20.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/commander/-/commander-2.20.0.tgz#3424f7a8401ae8e80225430d745415a1ccd45606"
-  integrity sha512-zXgIu9YY2BSbzSwGbyco8/yqx0sDcuNeMzToaemOy/ASFmDeS1YLbbCOW3epJXV8MAFAlyMEmeIL1K/l7XL9TQ==
+  version "2.20.3"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
 commander@~2.19.0:
   version "2.19.0"
@@ -8257,9 +8257,9 @@ source-map-support@^0.4.15:
     source-map "^0.5.6"
 
 source-map-support@^0.5.6, source-map-support@~0.5.12:
-  version "0.5.13"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map-support/-/source-map-support-0.5.13.tgz#0eef1bec4604f0467a0cea83108d31c2b3752b39"
-  integrity sha512-TkncMdUPEzW79kTgWhHmZC6zjuxnDm7tezu5tVDnfYMWjjyrQi25YQ9qNnknlrMqNMN/BFrxhpsM1BVddbBqgA==
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -8269,12 +8269,7 @@ source-map-url@^0.4.0:
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map-url/-/source-map-url-0.4.0.tgz#28b0550ca01ffec9552f965a933a1a11e291ba2a"
   integrity sha512-UObdFPkYdlBd6BNRhc5cnca8yhXJNf0eKNapXNDACJImN5GAxx+Pgxq47bqc5ZYo1OieksuGy3DfdSQ+Rimmtg==
 
-source-map@^0.5.0, source-map@^0.5.3:
-  version "0.5.5"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map/-/source-map-0.5.5.tgz#2e39238fb02e29c146c71fed98f97f6ddd0b23d4"
-  integrity sha512-7wP48w4g5EYgyaQpmqUM2JmeJc2EUCCqJ8WUkCZJUqtclncj5qLE4RR6sSL2AsRrMO8ZLooR2n+dYjaxapy/KQ==
-
-source-map@^0.5.6:
+source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6:
   version "0.5.7"
   resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/source-map/-/source-map-0.5.7.tgz#bbba0121acae60c79c50b86a16ab92eb26d4a058"
   integrity sha512-XgQuv8vm5Tx+FLir/yXBwTjyMLHrv0PYibx06kB+KPVYy8WSZeYOPLX1ELsHj2IF9KjoqtmQhNqXzxLlZepR9Q==
@@ -8678,9 +8673,9 @@ terser-webpack-plugin@^1.1.0, terser-webpack-plugin@^1.2.3:
     worker-farm "^1.7.0"
 
 terser@^4.0.0:
-  version "4.1.2"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/terser/-/terser-4.1.2.tgz#7bea4a0955a1798b16f2c7bdfacbaf241370eacd"
-  integrity sha512-7La+iQibVSlIJB6e6C3e165Y3s9a4nwkKoTZtEyHaKkFEwdAt2dN+fi8KQSj5On2WZeh8y8bMH11PlfTUx0cJw==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
