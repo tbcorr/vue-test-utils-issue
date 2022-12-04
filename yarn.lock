@@ -2950,9 +2950,9 @@ decamelize@^1.1.1, decamelize@^1.2.0:
   integrity sha512-f/GSlEqBJSiT2b0RY1ZLHF/k+x3PN6gZ76Zyow2ICerpZvfiWnyVBhK9QF5f1vu601uwRpFMh+daRLzf2S5BkQ==
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://nexus.opst.c1.vanguard.com/repository/vanguard_npm_group/decode-uri-component/-/decode-uri-component-0.2.0.tgz#d34c3e21b8a8c28638f80809a52d971e966e4454"
-  integrity sha512-2/n7c+PwwB5IXomvfjJmZ+jyc/hC1mnhc39Ga+4Uh2Q/dp3T3DfWdeLYcW221qbk0oaKKJNNvjr/3Rh5bQGC4w==
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.0.1"
